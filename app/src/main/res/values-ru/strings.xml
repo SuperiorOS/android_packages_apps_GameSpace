@@ -16,9 +16,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="settings_title">Игровое пространство</string>
     <string name="settings_summary">Настройка игровых возможностей</string>
     <string name="app_selector_label">Выберите свою игру</string>
     <string name="auto_brightness_disabled_title">Отключить автояркость</string>
+    <string name="heads_up_disabled_title">Отключить всплывающие уведомления</string>
     <string name="in_game_preferences_title">Настройки игры</string>
     <string name="game_list_title">Библиотека</string>
     <string name="game_remove_message">Вы уверены, что хотите удалить %1$s из своей библиотеки?</string>
@@ -41,11 +43,19 @@
     <string name="ringer_mode_normal">Обычный</string>
     <string name="ringer_mode_no_change">Без изменений</string>
     <string name="suppress_fullscreen_intent_title">Блокировать полноэкранное событие</string>
+    <string name="suppress_fullscreen_intent_summary">Предотвращать появление полноэкранных уведомлений, таких как входящие вызовы, во время игры</string>
     <string name="per_app_title">Настроить игру</string>
     <string name="per_app_mode_title">Предпочтительный режим</string>
     <string name="per_app_angle_title">Использовать ANGLE (эксперементально)</string>
+    <string name="per_app_angle_summary">Использование рендерера ANGLE вместо собственных драйверов GLES.\nВНИМАНИЕ!! Может ломать игровую графику, использовать с осторожностью!</string>
     <string name="cant_find_angle_pkg">ANGLE недоступен в вашей системе</string>
     <string name="per_app_unregister">Удалить %1$s из библиотеки</string>
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">по умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nУдерживайте для установки</string>
+    <string name="custom_seekbar_default_value_is_set">Установлено значение по умолчанию</string>
     <string name="gamespace_menu_opacity_title">Уровень прозрачности меню наложения</string>
     <string name="adb_disabled_title">Отключение отладки по USB</string>
+    <string name="battery_format"><xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
+    <string name="memory_format"><xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
 </resources>
