@@ -37,11 +37,11 @@
             android:padding="14dp">
 
             <RelativeLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:gravity="center"
@@ -62,16 +62,6 @@
                     android:drawablePadding="2dp"
                     android:textSize="14sp"
                     android:textColor="?android:attr/textColorPrimaryInverse" />
-
-                 <io.chaldeaprjkt.gamespace.widget.MemoryView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="4dp"
-                    android:drawableStart="@drawable/memory"
-                    android:fontFamily="@*android:string/config_lightFontFamily"
-                    android:textColor="?android:attr/textColorPrimaryInverse"
-                    android:drawablePadding="2dp"
-                    android:textSize="14sp" />
                 
                 <TextView
                     android:id="@+id/batteryTemp"   
@@ -99,6 +89,7 @@
 
             <include layout="@layout/tiles" />
 
+            <include layout="@layout/memview" />
 
         </LinearLayout>
     </ScrollView>
