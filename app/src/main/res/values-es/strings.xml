@@ -29,11 +29,11 @@
     <string name="state_enabled">enabled</string>
     <string name="state_disabled">disabled</string>
     <string name="game_mode_title">Mode</string>
-    <string name="game_mode_unsupported">Non compatible</string>
+    <string name="game_mode_unsupported">Unsupported</string>
     <string name="game_mode_standard">Standard</string>
     <string name="game_mode_performance">Performance</string>
-    <string name="game_mode_battery">Batterie</string>
-    <string name="heads_up_title">Notifications flottantes</string>
+    <string name="game_mode_battery">Battery</string>
+    <string name="heads_up_title">Heads up</string>
     <string name="fps_Info_title">FPS info</string>
     <string name="stay_awake_title">Stay awake</string>
     <string name="lock_gesture_title">Lock gesture</string>
@@ -51,7 +51,7 @@
     <string name="cant_find_angle_pkg">ANGLE is not available on your system</string>
     <string name="per_app_unregister">Remove %1$s from library</string>
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">par défaut</string>
+    <string name="custom_seekbar_default_value">by default</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
     <string name="gamespace_menu_opacity_title">Overlay menu opacity level</string>
