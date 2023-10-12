@@ -52,8 +52,8 @@
     <string name="per_app_unregister">%1$s - kitabxanadan sil</string>
     <string name="custom_seekbar_value">Dəyər: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">ilkin olaraq</string>
-    <string name="custom_seekbar_default_value_to_set">İlkin dəyər: <xliff:g id="v">%s</xliff:g>\nTənzimləmək üçün uzun toxunun</string>
-    <string name="custom_seekbar_default_value_is_set">İlkin dəyər tənzimləndi</string>
+    <string name="custom_seekbar_default_value_to_set">İlkin dəyər: <xliff:g id="v">%s</xliff:g>\nAyarlamaq üçün uzun toxunun</string>
+    <string name="custom_seekbar_default_value_is_set">İlkin dəyər ayarlandı</string>
     <string name="gamespace_menu_opacity_title">İnterfeys menyu şəffaflıq səviyyəsi</string>
     <string name="adb_disabled_title">USB sazlamanı sıradan çıxart</string>
     <string name="battery_format"><xliff:g id="percentage" example="100">%1$d%%</xliff:g></string>
